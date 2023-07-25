@@ -4,6 +4,7 @@ metadata:
   name: fluxtest
 resources:
 - ./nginx-chart
+- helmfile.yaml
 configMapGenerator:
 - name: valuetest
   behavior: create
