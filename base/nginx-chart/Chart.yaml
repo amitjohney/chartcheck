@@ -4,6 +4,3 @@ description: My First Helm Chart
 type: application
 version: 0.1.0
 appVersion: "1.0.0"
-maintainers:
-- email: contact@devopscube.com
-  name: devopscube
