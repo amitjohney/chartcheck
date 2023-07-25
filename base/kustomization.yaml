@@ -3,8 +3,7 @@ kind: Kustomization
 metadata:
   name: fluxtest
 resources:
-- ./nginx-chart
-- helmfile.yaml
+- nginx-chart/
 configMapGenerator:
 - name: valuetest
   behavior: create
